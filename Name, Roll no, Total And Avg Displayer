@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+char Name;
+int Rollno;
+float Physics,Chemistry,Maths,Biology,History;
+float Total,Avg;
+
+printf("Enter Your Name=>");
+scanf("%s" , &Name);
+
+printf("Enter Your Roll No.:=>");
+scanf("%d" , &Rollno);
+
+printf("Enter Your Marks Of P,C,M,B,H=>");
+scanf("%f,%f,%f,%f,%f", &Physics,&Chemistry,&Maths,&Biology,&History);
+
+Total = ( Physics+Chemistry+Maths+Biology+History );
+Avg = ( Total/5 );
+
+printf("The Total Is=> %.2f\n" , Total);
+printf("The Avg Is=> %.2f\n" , Avg);
+}
