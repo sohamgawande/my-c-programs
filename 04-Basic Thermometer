@@ -6,7 +6,7 @@ int main () {
     printf("Enter Temp In Celsius:");
     scanf("%f" , &Cel);
 
-    CelToFarenheit = (Cel * 1.8)-32;
+    CelToFarenheit = (Cel * 1.8)+32;
 
     printf("The Temp in Farenheit Is  :%f", CelToFarenheit);
     
