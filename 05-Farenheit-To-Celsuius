@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float Far;
+    float FarToCelsius;
+
+    printf("Enter Temp In Farenheit: ");
+    scanf("%f", &Far);
+
+    FarToCelsius = (Far - 32) / 1.8;
+
+    printf("The Temp in Celsius Is: %.2f\n", FarToCelsius);
+
+    return 0;
+}
